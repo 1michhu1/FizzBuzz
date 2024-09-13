@@ -40,7 +40,7 @@ class FizzBuzz {
         }
     }
 
-    private static int getI(int i) {
+    public static int getI(int i) {
         boolean divisible3 = i % 3 == 0;
         boolean divisible5 = i % 5 == 0;
 
